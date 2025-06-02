@@ -76,15 +76,7 @@ body {
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #4d5ae5;
-	width: 115px;
-    height: 24px;
-	display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-	margin: 24px 56px 24px 156px;
-	
+	margin-right: 76px;
 	
 
 }
@@ -118,11 +110,15 @@ span {
 }
 
 
-
+.main-nav{
+	display: flex;
+	align-items: center;
+}
 
 .nav-menu{
 display: flex;
 gap: 40px;
+margin-right: 40px;
 }
 	
 
