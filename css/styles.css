@@ -52,13 +52,18 @@ body {
 	color: #434455;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 .top-line{
 	border-bottom: 1px solid #e7e9fc;
     background-color: var(--white);
 }
 
-.container-header-inner {
+.header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
