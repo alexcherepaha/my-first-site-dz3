@@ -52,18 +52,13 @@ body {
 	color: #434455;
 }
 
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 .top-line{
 	border-bottom: 1px solid #e7e9fc;
     background-color: var(--white);
 }
 
-.header-inner {
+.container-header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,9 +113,11 @@ span {
 .nav-menu{
 display: flex;
 gap: 40px;
-margin-right: 40px;
 }
 	
+.nav-menu li:last-child {
+  margin-right: 0;
+}
 
 .nav-manu> .nav-link{
 	font-family: var(--font-family);
@@ -134,7 +131,7 @@ margin-right: 40px;
 }
 
 .nav-link {
-	
+	padding: 24px 0;
 	font-family: var(--font-family);
 	
     font-weight: 500;
@@ -152,6 +149,10 @@ margin-right: 40px;
 .contact-list{
 	display: flex;
 	gap: 40px;
+}
+
+.contact-list li:last-child {
+  margin-right: 0;
 }
 
 .contact-link{
