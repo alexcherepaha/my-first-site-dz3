@@ -53,7 +53,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  width: 1158px;
   height: 72px;
   margin: 0 auto;
   padding: 0 15px;
@@ -231,13 +231,21 @@ gap: 40px;
 	background-color: #404BBF;
 }
 
+.our-strengths{
+	padding: 120px 0 120px;
+}
+
 .strengths-tytle{
 	text-align: center;
 	display: flex;
 	gap: 20px;
 }
 
-.strengths{
+.strengths-our-list{
+display: flex;
+gap: 24px;
+margin-right: 0;
+width: calc((100% - 72px) / 4);
 	font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
@@ -253,6 +261,7 @@ color: #2e2f42
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+	margin-bottom: 8px;
 }
 
 
