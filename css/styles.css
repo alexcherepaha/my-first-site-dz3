@@ -253,8 +253,12 @@ gap: 40px;
 	gap: 24px;
 }
 
-.strengths-our-list{
+.element-list-section2{
 width: calc((100% - 72px) / 4);
+}
+
+.strengths-our-list{
+
 	font-family: var(--font-family);
 font-weight: 500;
 font-size: 20px;
