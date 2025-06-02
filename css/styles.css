@@ -290,6 +290,7 @@ text-transform: capitalize;
 line-height: 1.11;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
+margin-bottom: 72px;
 }
 
 .team-team{
